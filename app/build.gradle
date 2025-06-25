@@ -37,6 +37,9 @@ android {
 }
 
 dependencies {
+    androidTestImplementation 'io.appium:java-client:8.3.0'
+    androidTestImplementation 'org.seleniumhq.selenium:selenium-java:4.8.0'
+
     def core_version = "1.12.0"
     def appcompat_version = "1.6.1"
     implementation "androidx.core:core-ktx:$core_version"
